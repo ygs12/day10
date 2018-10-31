@@ -1,0 +1,11 @@
+#encrypt:
+##  key: zf_fkewkrKD3441
+encrypt:
+  keyStore:
+    location: classpath:/server.jks
+    password: letmein
+    alias: mytestkey
+    secret: changeme
+spring:
+  application:
+    name: config
